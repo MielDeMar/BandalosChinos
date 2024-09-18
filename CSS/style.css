@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+body {background-image: url("../IMG/FONDO.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; color: white; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+/* el * hace referencia a un selector universal. es decir va a afectar a todos los elementos que estan en el codigo fuente*/
+
+
+.wrapper {background-color: rgba(239,66,69,0.55); width:1000px; margin-left: auto; margin-right: auto;}
+
+footer {font-size:10px; background-color: crimson; height: 50px; line-height: 50px;}
+
+.menu {background-color: indianred; height: 220px; font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
+
+ul {list-style-type: none; }
+
+li {width: 249px; float: left; border-left:1px dotted; line-height: 25px;}
+
+#izquierdo {border-left: none;}
+h1 {font-size: 60px; line-height: 180px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+
+.fondos {background-color: white; width: 800px; margin-left: auto; margin-right: auto; padding:50px; margin:50px;}
+
+.fondos p{text-align: justify; color: black; font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
+
+
+h2 {color: indianred; border-top:1px solid indianred; border-bottom: 1px solid indianred; width: 200px; margin-right: auto; margin-left: auto; line-height:60px;}
+
+.polaroid {width:317px; height: 380px; background-color: white; color: black; box-shadow: 0px 0px 50px white; float: left; margin: 8px; font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
+
+/* Valores de box shadow: x, y, difuminado y color */
+
+.clear {clear: left;}
+
+/* la propiedad clear permite que continue el wrapper depues de float*/
+
+a {text-decoration: none; color: white;}
+
+a:hover {color: greenyellow; font-size: 20px; }
+
+h3 {color: black; font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"}
+
+
+
+
+
+
